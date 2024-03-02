@@ -1,0 +1,15 @@
+{
+    "categories": {
+        "0": "web scraping",
+        "1": "media",
+        "2": "video",
+        "3": "productivity",
+        "4": "data (things)"
+    },
+    "description": "This plugin allows you to get the captions / transcript of a YouTube video as a text.\n",
+    "image": "//meta-q.cdn.bubble.io/f1709198207755x814958173406394200/Screenshot%202024-02-29%20alle%2017.15.34.png",
+    "license": "open_source",
+    "name": "YouTube Captions / Transcript",
+    "plugin_instructions": "From your Bubble app editor, go to the Workflow tab and you can find it as an action under Plugins -> Get YouTube Captions. \n\nRequired inputs are the Youtube link and the language of the video, wich default is 'en' (English).",
+    "sa_node_version": 18
+}

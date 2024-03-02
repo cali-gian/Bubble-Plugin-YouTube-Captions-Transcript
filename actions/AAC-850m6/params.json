@@ -1,0 +1,31 @@
+{
+    "category": "plugins",
+    "display": "Get Youtube Captions",
+    "fields": {
+        "AAD": {
+            "caption": "Video url",
+            "editor": "DynamicValue",
+            "name": "videoID",
+            "rank": 0,
+            "value": "text"
+        },
+        "AAK": {
+            "caption": "Video Language",
+            "default_val": "en",
+            "editor": "DynamicValue",
+            "name": "language",
+            "rank": 1,
+            "value": "text"
+        }
+    },
+    "return_value": {
+        "AAE": {
+            "caption": "transcript",
+            "name": "transcript",
+            "rank": 0,
+            "value": "text"
+        }
+    },
+    "type": "server_side",
+    "use_packages": true
+}
